@@ -37,36 +37,42 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  background-color: #c55a5a;
+  color: rgb(255, 255, 255);
   z-index: 10;
 }
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #ff0000;
   text-decoration: underline;
   transition: 0.2s;
+}
+
+#expdiff {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 110px;
 }
 
 #heading {
   /* Center heading content */
   display: flex;
   flex-direction: column;
-  margin: 2em;
+  margin: 3em;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
   /* Heading font size */
-  font-size: 2.5em;
+  font-size: 5em;
 }
 
 #projects {
@@ -95,8 +101,8 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 300px;
-  width: 300px;
+  height: 450px;
+  width: 650px;
   margin-right: 3em;
   margin-left: 6em;
   border: 1px solid #ccc;
@@ -105,17 +111,20 @@ h1 {
 img {
   /* Image dimensions and margin */
   height: 120px;
-  width: 120px;
+  width: 180px;
   margin: 0.5em;
 }
 
 #images {
   /* Center image container */
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 32px; 
   justify-content: center;
   align-items: center;
-  height: 8em;
-  margin-bottom: 2em;
+  margin-bottom: 25px;
+
 }
 
 #images-row {
@@ -126,15 +135,44 @@ img {
   position: relative;
 }
 
-#description {
-  /* Center description content */
+#description1 {
+  /* Restrict description height and enable scrolling */
   display: flex;
-  align-items: center;
-  height: 4em;
-  width: 35em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 8em;  /* Changes the size of the text box */
+  width: 40em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-weight: bold;
+  margin-left: 0em;
+  margin-top: 0em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.101); /* Changes the color of the background of the text box */
+  border: 1px solid #fcfcfc; /* Changes the color of the border of the text box */
+  box-sizing: border-box;
+  scrollbar-width: none; 
+}
+
+#description2 {
+  /* Restrict description height and enable scrolling */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 8em;  /* Changes the size of the text box */
+  width: 40em;
+  overflow-y: scroll;
+  overflow-x: hidden;
   font-weight: 100;
-  margin-left: 2em;
-  margin-top: 3em;
+  margin-left: 0em;
+  margin-top: 0em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.101); /* Changes the color of the background of the text box */
+  border: 1px solid #c55a5a; /* Changes the color of the border of the text box */
+  box-sizing: border-box;
+  scrollbar-width: none; 
 }
 
 @media screen and (max-width: 768px) {
