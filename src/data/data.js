@@ -1,8 +1,8 @@
 // CUSTOMIZE THIS FILE TO ADD YOUR OWN DATA
 
 const data = {
-    name: "SILVER CASTILLO",
-    bio: "Undergraduate Architectural Student at University of Calgary.",
+    name: "SILVER",
+    bio: "undergraduate architectural student at ucalgary.",
     contact: {
         email: "silver.castillo@ucalgary.ca",
         phone: "+17802620417",

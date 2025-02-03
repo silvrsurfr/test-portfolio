@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #c55a5a;
+  background-color: #282828;
   color: rgb(255, 255, 255);
   z-index: 10;
 }
@@ -50,12 +50,12 @@ a {
 
 a:hover {
   /* Link hover effects */
-  color: #ff0000;
+  color: #666666;
   text-decoration: underline;
   transition: 0.2s;
 }
 
-#expdiff {
+#a1title {
   font-size: 2em;
   font-weight: bold;
   margin-top: 110px;
@@ -135,7 +135,7 @@ img {
   position: relative;
 }
 
-#description1 {
+#descheader {
   /* Restrict description height and enable scrolling */
   display: flex;
   align-items: flex-start;
@@ -155,13 +155,13 @@ img {
   scrollbar-width: none; 
 }
 
-#description2 {
+#a1desc {
   /* Restrict description height and enable scrolling */
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   height: auto;
-  max-height: 8em;  /* Changes the size of the text box */
+  max-height: 9em;  /* Changes the size of the text box */
   width: 40em;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -170,7 +170,27 @@ img {
   margin-top: 0em;
   padding: 0.5em;
   background: rgba(255, 255, 255, 0.101); /* Changes the color of the background of the text box */
-  border: 1px solid #c55a5a; /* Changes the color of the border of the text box */
+  border: 1px solid #ffffff; /* Changes the color of the border of the text box */
+  box-sizing: border-box;
+  scrollbar-width: none; 
+}
+
+#a2desc {
+  /* Restrict description height and enable scrolling */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 13em;  /* Changes the size of the text box */
+  width: 40em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-weight: 100;
+  margin-left: 0em;
+  margin-top: 0em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.101); /* Changes the color of the background of the text box */
+  border: 1px solid #ffffff; /* Changes the color of the border of the text box */
   box-sizing: border-box;
   scrollbar-width: none; 
 }
