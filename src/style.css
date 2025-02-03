@@ -58,7 +58,13 @@ a:hover {
 #a1title {
   font-size: 2em;
   font-weight: bold;
-  margin-top: 110px;
+  margin-top: 228px;
+}
+
+#a2title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 228px;
 }
 
 #heading {
@@ -98,14 +104,30 @@ h1 {
   align-items: center;
 }
 
+#a1pic {
+  height: 475px;
+  width: 700px;
+  margin-right: 3em;
+  margin-left: 3em;
+  border: 1px solid #cccc;
+}
+
+#a2pic {
+  height: 450px;
+  width: 700px;
+  margin-right: 3em;
+  margin-left: 3em;
+  border: 1px solid #cccc;
+}
+
 #model1,
 #model2,
 #model3 {
-  height: 450px;
-  width: 650px;
+  height: 395px;
+  width: 395px;
   margin-right: 3em;
-  margin-left: 6em;
-  border: 1px solid #ccc;
+  margin-left: 1.5em;
+  border: 1px solid #cccc;
 }
 
 img {

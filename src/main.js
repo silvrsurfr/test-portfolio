@@ -46,7 +46,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
         <div class="three-model">
           <a href="./webpics/fullbleed.png" target="_blank">
-          <img src="./webpics/fullbleed.png" id="model1" alt="fullbleed">
+          <img src="./webpics/fullbleed.png" id="a1pic" alt="fullbleed">
           </a>
         </div>
         <div id="images-description">
@@ -77,13 +77,13 @@ document.querySelector("#app").innerHTML = `
 
   <main id="container">
     <section id="heading">
-    <p id="a1title">a2: I N T E R O P ( E R A B I L I T Y )</p>
+    <p id="a2title">a2: I N T E R O P ( E R A B I L I T Y )</p>
     </section>
     <section id="projects">
       <div id="project-row">
         <div class="three-model">
           <a href="./a2/models.png" target="_blank">
-          <img src="./a2/models.png" id="model1" alt="fullbleed">
+          <img src="./a2/models.png" id="a2pic" alt="fullbleed">
           </a>
         </div>
         <div id="images-description">
@@ -106,9 +106,13 @@ document.querySelector("#app").innerHTML = `
 <section id="projects">
       <div id="project-row">
       <div class="three-model">
-          <div id="model2"></div>
-        </div>
-
+      <div id="model1"></div>
+      <div class="three-model">
+      <div id="model2"></div>
+      <div class="three-model">
+      <div id="model3">
+      
+    
       ${/* m3 greyed out
       <div id="project-row">
       Model 3
@@ -140,6 +144,6 @@ document.querySelector("#app").innerHTML = `
 `;
 
 //Create three.js scenes for each
-//createThreeScene("#model1", "/3DModels/a2/pav.obj");
-//createThreeScene("#model2", "/3DModels/a2/tree.obj");
-//createThreeScene("#model3", "/3DModels/a2/cottage.obj");
+createThreeScene("#model1","/3DModels/a2/pav.obj");
+createThreeScene("#model2", "/3DModels/a2/torus.obj");
+createThreeScene("#model3", "/3DModels/a2/sandile.obj");
