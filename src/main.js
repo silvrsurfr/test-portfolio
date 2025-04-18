@@ -155,7 +155,7 @@ document.querySelector("#app").innerHTML = `
             </a>
           </div>
           <h4 id="descheader">PARACOSM: Corpse-Inspired Placemaking</h4>
-          <h4 id="a3desc">Paracosm is a visionary pavilion where architecture converges with art in a realm of limitless imagination. Its two gracefully curving arms, defined by louvre facades and supported by bold diagonal frames, invite visitors to traverse a living gallery. Here, every step unfolds a dynamic space of regenerative art—a place where creativity transforms architecture into an immersive, interactive world. Note: the .obj file is distorted in the website interactable.</h4>
+          <h4 id="a3desc">Paracosm is a visionary pavilion where architecture converges with art in a realm of limitless imagination. Its two gracefully curving arms, defined by louvre facades and supported by bold diagonal frames, invite visitors to traverse a living gallery. Here, every step unfolds a dynamic space of regenerative art—a place where creativity transforms architecture into an immersive, interactive world.</h4>
       </div>
       </div>
 
