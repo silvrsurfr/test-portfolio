@@ -40,34 +40,34 @@ document.querySelector("#app").innerHTML = `
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
-      <p id="a1title">a1: C A D A V R E _ E X Q U I S</p>
+      <p id="a-title">a1: C A D A V R E _ E X Q U I S</p>
     </section>
     <section id="projects">
       <div id="project-row">
         <div class="three-model">
-          <a href="./webpics/fullbleed.png" target="_blank">
-          <img src="./webpics/fullbleed.png" id="a1pic" alt="fullbleed">
+          <a href="./a1/fullbleed.png" target="_blank">
+          <img src="./a1/fullbleed.png" id="a1pic" alt="fullbleed">
           </a>
         </div>
         <div id="images-description">
           <div id="images">
-            <a href="./webpics/odyssey.png" target="_blank">
-              <img src="./webpics/odyssey.png" alt="odyssey" />
+            <a href="./a1/odyssey.png" target="_blank">
+              <img src="./a1/odyssey.png" alt="odyssey" />
             </a>
-            <a href="./webpics/existence.png" target="_blank">
-              <img src="./webpics/existence.png" alt="existence" />
+            <a href="./a1/existence.png" target="_blank">
+              <img src="./a1/existence.png" alt="existence" />
             </a>
-            <a href="./webpics/guidance.png" target="_blank">
-              <img src="./webpics/guidance.png" alt="guidance" />
+            <a href="./a1/guidance.png" target="_blank">
+              <img src="./a1/guidance.png" alt="guidance" />
             </a>
-            <a href="./webpics/mementomori.png" target="_blank">
-              <img src="./webpics/mementomori.png" alt="mementomori" />
+            <a href="./a1/mementomori.png" target="_blank">
+              <img src="./a1/mementomori.png" alt="mementomori" />
             </a>
-            <a href="./webpics/exquisitecorpse.png" target="_blank">
-              <img src="./webpics/exquisitecorpse.png" alt="exquisitecorpse" />
+            <a href="./a1/exquisitecorpse.png" target="_blank">
+              <img src="./a1/exquisitecorpse.png" alt="exquisitecorpse" />
             </a>
-            <a href="./webpics/ref.png" target="_blank">
-              <img src="./webpics/ref.png" alt="references" />
+            <a href="./a1/ref.png" target="_blank">
+              <img src="./a1/ref.png" alt="references" />
             </a>
           </div>
           <h4 id="descheader">EUDAIMONIA: An Odyssey to Self-Mastery</h4>
@@ -77,7 +77,7 @@ document.querySelector("#app").innerHTML = `
 
   <main id="container">
     <section id="heading">
-    <p id="a2title">a2: I N T E R O P ( E R A B I L I T Y )</p>
+    <p id="a-title">a2: I N T E R O P ( E R A B I L I T Y )</p>
     </section>
     <section id="projects">
       <div id="project-row">
@@ -89,13 +89,13 @@ document.querySelector("#app").innerHTML = `
         <div id="images-description">
           <div id="images">
            <a href="./a2/pav.png" target="_blank">
-              <img src="./a2/pav.png" alt="pavilion" />
+              <img src="./a2/pav.png" id="imgborder" alt="pavilion" />
             </a>
             <a href="./a2/torus.png" target="_blank">
-              <img src="./a2/torus.png" alt="torus" />
+              <img src="./a2/torus.png" id="imgborder" alt="torus" />
             </a>
             <a href="./a2/sandile.png" target="_blank">
-              <img src="./a2/sandile.png" alt="0551" />
+              <img src="./a2/sandile.png" id="imgborder" alt="0551" />
             </a>
           </div>
           <h4 id="descheader">CROSS-PLATFORM: Understanding Interoperability</h4>
@@ -103,16 +103,98 @@ document.querySelector("#app").innerHTML = `
       </div>
       </div>
 
-<section id="projects">
+    <main id="container">
+    <section id="heading">
+    <p id="a-title">a3: O B J E C T _ D E S I G N</p>
+    </section>
+    <section id="projects">
       <div id="project-row">
-      <div class="three-model">
-      <div id="model1"></div>
-      <div class="three-model">
-      <div id="model2"></div>
-      <div class="three-model">
-      <div id="model3">
-      
-    
+        <div class="three-model">
+          <a href="./a3/eyeofra.png" target="_blank">
+          <img src="./a3/eyeofra.png" id="a3pic" alt="fullbleed">
+          </a>
+        </div>
+        <div id="images-description">
+          <div id="images">
+           <a href="./a3/models.png" target="_blank">
+              <img src="./a3/models.png" id="imgborder" alt="objects" />
+            </a>
+            <a href="./a3/diagram.png" target="_blank">
+              <img src="./a3/diagram.png" id="imgborder" alt="schematic" />
+            </a>
+            <a href="./a3/pseudocode.png" target="_blank">
+              <img src="./a3/pseudocode.png" alt="flowchart" />
+            </a>
+          </div>
+          <h4 id="descheader">EYE OF RA: Fictional Object Fabrication</h4>
+          <h4 id="a3desc">The  Eye of Ra is a personal doomsday clock, a mystical artifact that reveals the passage of time unique to its holder. At its core, a red circular gauge gradually fills in a clockwise direction, marking the progression of an individual’s lifespan. When the red ring reaches full completion, the holder’s time will come to an end. However, the speed at which it fills varies for each person, dictated by unseen cosmic forces, making it an enigmatic and deeply personal symbol of mortality. The name eye of ra draws inspiration from ancient egyptian mythology, where the eye of ra was both a protector and an agent of destruction—representing wisdom, divine vision, and the inevitable cycle of life and death. Like its namesake, this artifact does not merely signify an ending but serves as a reminder of one’s finite existence, urging its bearer to live with awareness and purpose. The sun-like form reinforces the idea of time’s relentless motion, akin to the sun rising and setting, a cycle that governs all life. By holding the Eye of Ra, one does not merely witness their own mortality but is given the gift of foresight—to cherish, to act, and to embrace the present moment.</h4>
+      </div>
+      </div>
+
+    <main id="container">
+    <section id="heading">
+    <p id="a-title">a4: P L A C E M A K I N G</p>
+    </section>
+    <section id="projects">
+      <div id="project-row">
+        <div class="three-model">
+          <a href="./a4/paracosm.png" target="_blank">
+          <img src="./a4/paracosm.png" id="a4pic" alt="fullbleed">
+          </a>
+        </div>
+        <div id="images-description">
+          <div id="images">
+           <a href="./a4/renders.png" target="_blank">
+              <img src="./a4/renders.png" alt="shots" />
+            </a>
+            <a href="./a4/fabrications.png" target="_blank">
+              <img src="./a4/fabrications.png" alt="builds" />
+            </a>
+            <a href="./a4/pseudocode.png" target="_blank">
+              <img src="./a4/pseudocode.png" id="imgborder" alt="flowchart" />
+            </a>
+          </div>
+          <h4 id="descheader">PARACOSM: Corpse-Inspired Placemaking</h4>
+          <h4 id="a3desc">Paracosm is a visionary pavilion where architecture converges with art in a realm of limitless imagination. Its two gracefully curving arms, defined by louvre facades and supported by bold diagonal frames, invite visitors to traverse a living gallery. Here, every step unfolds a dynamic space of regenerative art—a place where creativity transforms architecture into an immersive, interactive world. Note: the .obj file is distorted in the website interactable.</h4>
+      </div>
+      </div>
+
+    <main id="container">
+    <p id="a-title">a5: G A M E _ E N G I N E S</p>
+    </section>
+    <section id="projects">
+      <div id="project-row">
+        <div class="three-model">
+          <a href="./a5/shots.png" target="_blank">
+          <img src="./a5/shots.png" id="a5pic" alt="fullbleed">
+          </a>
+        </div>
+        <div id="images-description">
+          <div id="images">
+            <a href="./a5/iso.png" target="_blank">
+              <img src="./a5/iso.png" id="imgborder" alt="isometric" />
+            </a>
+            <a href="./a5/elevation.png" target="_blank">
+              <img src="./a5/elevation.png" id="imgborder" alt="facade" />
+            </a>
+            <a href="./a5/plan.png" target="_blank">
+              <img src="./a5/plan.png" id="imgborder" alt="floorplan" />
+            </a>
+            <a href="./a5/dsgn_c1.png" target="_blank">
+              <img src="./a5/dsgn_c1.png" id="imgborder" alt="concept1" />
+            </a>
+            <a href="./a5/dsgn_c2.png" target="_blank">
+              <img src="./a5/dsgn_c2.png" id="imgborder" alt="concept2" />
+            </a>
+            <a href="./a5/pseudocode.png" target="_blank">
+              <img src="./a5/pseudocode.png" alt="flowchart" />
+            </a>
+          </div>
+          <h4 id="descheader">EUDAIMONIA: Unity + Spatial.io Metaverse</h4>
+          <h4 id="a1desc">The Eudaimonia Gallery is an open‑air exhibition space set above an grassland, accessed by a single, sturdy oak ladder standing on the earth. Upon climbing, visitors step onto a series of softly glowing cloud platforms—each one a dedicated gallery stage where artworks and installations of previous assignments float on mist‑like pedestals. The clouds are arranged along a gentle aerial path, allowing guests to move from piece to piece in a seamless progression through parkour. Designed for contemplative exploration, the Eudaimonia Gallery blends the surreality of the exquisite corpse with innovative metaversal presentation, offering a unique elevation of art and game design.</h4>
+        </div>
+      </div>
+
       ${/* m3 greyed out
       <div id="project-row">
       Model 3
@@ -144,6 +226,3 @@ document.querySelector("#app").innerHTML = `
 `;
 
 //Create three.js scenes for each
-createThreeScene("#model1","/3DModels/a2/pav.obj");
-createThreeScene("#model2", "/3DModels/a2/torus.obj");
-createThreeScene("#model3", "/3DModels/a2/sandile.obj");

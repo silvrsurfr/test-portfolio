@@ -55,13 +55,7 @@ a:hover {
   transition: 0.2s;
 }
 
-#a1title {
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 228px;
-}
-
-#a2title {
+#a-title {
   font-size: 2em;
   font-weight: bold;
   margin-top: 228px;
@@ -87,7 +81,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10em;
+  margin-bottom: 3em;
 }
 
 #project-row {
@@ -109,7 +103,6 @@ h1 {
   width: 700px;
   margin-right: 3em;
   margin-left: 3em;
-  border: 1px solid #cccc;
 }
 
 #a2pic {
@@ -120,9 +113,34 @@ h1 {
   border: 1px solid #cccc;
 }
 
+#a3pic {
+  height: 400px;
+  width: 700px;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+#a4pic {
+  height: 400px;
+  width: 700px;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+#a5pic {
+  height: 400px;
+  width: 700px;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+
 #model1,
 #model2,
-#model3 {
+#model3,
+#model4,
+#model5,
+#model6 {
   height: 395px;
   width: 395px;
   margin-right: 3em;
@@ -135,6 +153,14 @@ img {
   height: 120px;
   width: 180px;
   margin: 0.5em;
+}
+
+#imgborder {
+  /* Image dimensions and margin */
+  height: 120px;
+  width: 180px;
+  margin: 0.5em;
+  border: 1px solid #cccc;
 }
 
 #images {
@@ -203,7 +229,27 @@ img {
   align-items: flex-start;
   justify-content: flex-start;
   height: auto;
-  max-height: 13em;  /* Changes the size of the text box */
+  max-height: 13.7em;  /* Changes the size of the text box */
+  width: 40em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-weight: 100;
+  margin-left: 0em;
+  margin-top: 0em;
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.101); /* Changes the color of the background of the text box */
+  border: 1px solid #ffffff; /* Changes the color of the border of the text box */
+  box-sizing: border-box;
+  scrollbar-width: none; 
+}
+
+#a3desc {
+  /* Restrict description height and enable scrolling */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-height: 10.4em;  /* Changes the size of the text box */
   width: 40em;
   overflow-y: scroll;
   overflow-x: hidden;
